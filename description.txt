@@ -1,0 +1,53 @@
+# CTF description
+
+# “The Phantom's Trail: Unveil the Hidden Key”
+
+**Objective:**
+
+You’ve been called in to continue the work of a previous pentester who had to leave unexpectedly. This pentester had already begun an investigation into Mastame, a company shrouded in mystery. During their work, they uncovered several users linked to the company, scattered across social media. Your task begins where they left off: performing OSINT on these users to gather information and uncover credentials that will grant you access to an FTP server. From there, your journey deep into the system begins, with the ultimate goal of finding the hidden flag.
+
+**Challenge Overview:**
+
+- Given Users:
+    - **amelia**
+    - **liam_carter_j**
+    - sembava
+    - druvaneza
+    - **nathan_rivers**
+    - **olivia_harpe**
+    - Hint
+        
+        Only one of this user exists
+        
+
+**Stage 1: OSINT on Mastame Users**
+
+Start by investigating the digital footprints of six users associated with Mastame on Instagram. The clues they leave behind may contain the credentials needed to access the FTP server. Only by piecing together this information will you be able to proceed.
+
+**Stage 2: Discovering the Clues**
+
+With the FTP credentials in hand, access the server. Valuable information is hidden here, and your first task is to find it.
+
+**Stage 3: Finding the Key**
+
+Once inside the FTP server, look for a key. This key will allow you to access the user jony’s account, which is necessary to move forward.
+
+**Stage 4: Activating the Server**
+
+In jony’s account, you’ll find an web server that isn’t running. Start the server to unlock the next part of your journey.
+
+**Stage 5: Retrieving Credentials**
+
+With the server running, look. These will allow you to log into another user’s account,  which is the next step.
+
+**Stage 6: Gaining Control**
+
+Using found user’s credentials, you’ll need to access the another user account. Here, you’ll need to make some research ,  make changes and gain control of the system.
+
+**Stage 7: Finding the Flag**
+
+Finally, in the root user’s directory, there’s a  file containing the flag. This file is your goal—find it to complete the challenge in order get flag you need enter previous user’s password.
+
+**Winning Condition:** Find and submit the final flag to complete the challenge.
+
+Remember: The trail left by the first pentester is your guide, but it’s up to you to uncover the hidden secrets and complete the mission.
